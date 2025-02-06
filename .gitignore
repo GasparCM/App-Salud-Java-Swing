@@ -1,0 +1,68 @@
+# Archivos y carpetas de compilación
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.log
+*.tmp
+
+# Configuración del IDE (IntelliJ, Eclipse, NetBeans)
+/.idea/
+/.vscode/
+/.settings/
+/.classpath
+/.project
+/.factorypath
+
+# Archivos de dependencias y build
+/build/
+/bin/
+/dist/
+/target/
+/.gradle/
+/.mvn/
+
+# Dependencias de Maven y Gradle
+*.iml
+.gradle
+mvnw*
+!mvnw.cmd
+!mvnw
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+**/target/
+**/build/
+
+# Archivos de sistema y otros
+.DS_Store
+Thumbs.db
+*.swp
+
+# Archivos de configuración sensibles
+.env
+config.properties
+SupabaseService.java
+ConexionSupabase.java
+
+# Archivos de Excel generados por la facturación
+*.xlsx
+*.xls
+
+# Cache y logs
+/logs/
+*.log
+hs_err_pid*
+
+# Archivos de Supabase o credenciales
+supabase.json
+supabase.key
+
+# Ignorar el archivo de credenciales que pueda estar en la carpeta de recursos
+/src/main/resources/config.properties
